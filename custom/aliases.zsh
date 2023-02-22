@@ -35,3 +35,5 @@ alias git=hub
 alias chrome='open -a "Google Chrome"'
 alias vscode="/Applications/Visual\\ Studio\\ Code.app/contents/Resources/app/bin/code"
 
+alias simpServ='php -S localhost:8000' 
+alias runFlask='flask --app app.py --debug run' 

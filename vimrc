@@ -55,10 +55,12 @@ Plugin 'posva/vim-vue'
 Plugin 'mattn/emmet-vim'
 Plugin 'sirtaj/vim-openscad'             " open scad text highlighting
 " Themes
-Plugin 'altercation/vim-colors-solarized'
-Plugin 'ChrisKempson/Vim-Tomorrow-Theme'
-Plugin 'croaky/vim-colors-github'
-Plugin 'sjl/badwolf'
+" Plugin 'altercation/vim-colors-solarized'
+" Plugin 'ChrisKempson/Vim-Tomorrow-Theme'
+" Plugin 'croaky/vim-colors-github'
+" Plugin 'sjl/badwolf'
+Plugin 'jacoborus/tender.vim'
+" Plugin 'dracula/vim', { 'name': 'dracula' }
 
 " All of your Plugins must be added before the following line
 call vundle#end()                 " required
@@ -83,9 +85,11 @@ set title                         " Show filename in window title bar
 set splitbelow
 set splitright
 
-colorscheme tomorrow-night-bright
+" colorscheme tomorrow-night-bright
 " set background=light
+" colorscheme dracula
 
+colorscheme tender
 " ----------------------------------------------------------------------------
 " Text Formatting
 " ----------------------------------------------------------------------------
