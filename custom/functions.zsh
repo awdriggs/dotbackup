@@ -19,3 +19,13 @@ push() {
     git push
 }
 
+serve() {
+  chrome http://localhost:8000/
+  php -S localhost:8000
+}
+
+serveFlask() {
+  chrome http://localhost:5000/
+  flask --app app.py --debug run 
+}
+
