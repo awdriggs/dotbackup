@@ -32,8 +32,8 @@ alias showFiles="defaults write com.apple.finder AppleShowAllFiles TRUE && killa
 alias git=hub
 
 # Application Aliases
-alias chrome='open -a "Google Chrome"'
+alias ff='open /Applications/Firefox.app'
 alias vscode="/Applications/Visual\\ Studio\\ Code.app/contents/Resources/app/bin/code"
 
-alias simpServ='php -S localhost:8000' 
-alias runFlask='flask --app app.py --debug run' 
+#alias simpServ='php -S localhost:8000' 
+# alias runFlask='flask --app app.py --debug run' 
