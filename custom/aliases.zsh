@@ -35,5 +35,7 @@ alias git=hub
 alias ff='open /Applications/Firefox.app'
 alias vscode="/Applications/Visual\\ Studio\\ Code.app/contents/Resources/app/bin/code"
 
+alias o="open ."
+
 #alias simpServ='php -S localhost:8000' 
 # alias runFlask='flask --app app.py --debug run' 
