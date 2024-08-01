@@ -36,6 +36,12 @@ alias ff='open /Applications/Firefox.app'
 alias vscode="/Applications/Visual\\ Studio\\ Code.app/contents/Resources/app/bin/code"
 
 alias o="open ."
-
+alias python='python3'
+alias pip='pip3'
 #alias simpServ='php -S localhost:8000' 
 # alias runFlask='flask --app app.py --debug run' 
+
+#arduino aliases
+alias compile="arduino-cli compile"
+alias attachNano="arduino-cli board attach -b arduino:samd:nano_33_iot"
+alias upload="arduino-cli upload -p /dev/cu.usbmodem1101"
