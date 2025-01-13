@@ -44,3 +44,23 @@ mov2gif() {
   echo "${WIDTH} and ${HEIGHT}"
   ffmpeg -i $FILE  -pix_fmt rgb8 -r $RATE  -vf scale=$WIDTH:$HEIGHT $NAME.gif && gifsicle -O3 $NAME.gif -o $NAME.gif
 }
+
+
+# these are for arduino stuff
+monitor() {
+  PORT=$1
+  BAUD=$2
+  stty -f "$PORT" "$BAUD" & cat "$PORT" 
+}
+
+#this needs to be tested 
+attach() {
+  BOARD=$1 #maybe change this to an if/else logic, ie. "if BOARD EQ 'esp' then ... if eq 'nano` then ..
+  PORT=$2
+
+  arduino-cli board attach -b $BOARD -p $PORT
+}
+
+
+
+

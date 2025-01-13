@@ -42,6 +42,8 @@ alias pip='pip3'
 # alias runFlask='flask --app app.py --debug run' 
 
 #arduino aliases
-alias compile="arduino-cli compile"
-alias attachNano="arduino-cli board attach -b arduino:samd:nano_33_iot"
-alias upload="arduino-cli upload -p /dev/cu.usbmodem1101"
+# alias compile="arduino-cli compile"
+alias compile="arduino-cli compile --libraries /Users/awdriggs/code/arduino/librariesD"
+# alias attachNano="arduino-cli board attach -b arduino:samd:nano_33_iot" #you have a custom function named attach
+alias upload="arduino-cli upload"
+# alias swatch= "cat /dev/cu.usbmodem1101" #you have a custome function named monitor
