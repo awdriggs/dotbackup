@@ -46,7 +46,7 @@ Plugin 'vim-ruby/vim-ruby'               " Ruby Configuration Files
 Plugin 'Chiel92/vim-autoformat'          " autoformatting
 Plugin 'mustache/vim-mustache-handlebars' " syntax highlighting for handlebars
 " Plugin 'Valloric/YouCompleteMe'
-" Plugin 'marijnh/tern_for_vim'
+Plugin 'marijnh/tern_for_vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'sophacles/vim-processing'        " processing syntax highlighting and tools
