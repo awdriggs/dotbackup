@@ -43,7 +43,7 @@ alias pip='pip3'
 
 #arduino aliases
 # alias compile="arduino-cli compile"
-alias compile="arduino-cli compile --libraries /Users/awdriggs/code/arduino/librariesD"
+alias compile="arduino-cli compile --libraries /Users/awdriggs/code/arduino/libraries"
 # alias attachNano="arduino-cli board attach -b arduino:samd:nano_33_iot" #you have a custom function named attach
 alias upload="arduino-cli upload"
 # alias swatch= "cat /dev/cu.usbmodem1101" #you have a custome function named monitor
