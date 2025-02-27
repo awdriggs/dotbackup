@@ -47,3 +47,7 @@ alias compile="arduino-cli compile --libraries /Users/awdriggs/code/arduino/libr
 # alias attachNano="arduino-cli board attach -b arduino:samd:nano_33_iot" #you have a custom function named attach
 alias upload="arduino-cli upload"
 # alias swatch= "cat /dev/cu.usbmodem1101" #you have a custome function named monitor
+
+
+# jekyll
+alias hyde="bundle exec jekyll serve --baseurl ''"
